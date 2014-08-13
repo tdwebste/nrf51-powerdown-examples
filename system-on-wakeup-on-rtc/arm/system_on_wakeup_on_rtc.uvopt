@@ -27,10 +27,10 @@
     <TargetOption>
       <CLKADS>16000000</CLKADS>
       <OPTTT>
-        <gFlags>0</gFlags>
+        <gFlags>1</gFlags>
         <BeepAtEnd>1</BeepAtEnd>
-        <RunSim>1</RunSim>
-        <RunTarget>0</RunTarget>
+        <RunSim>0</RunSim>
+        <RunTarget>1</RunTarget>
       </OPTTT>
       <OPTHX>
         <HexSelection>1</HexSelection>
@@ -71,21 +71,11 @@
         <LExpSel>0</LExpSel>
       </OPTXL>
       <OPTFL>
-        <tvExp>0</tvExp>
+        <tvExp>1</tvExp>
         <tvExpOptDlg>0</tvExpOptDlg>
         <IsCurrentTarget>1</IsCurrentTarget>
       </OPTFL>
       <CpuCode>0</CpuCode>
-      <DllOpt>
-        <SimDllName>SARMCM3.DLL</SimDllName>
-        <SimDllArguments></SimDllArguments>
-        <SimDlgDllName>DARMCM1.DLL</SimDlgDllName>
-        <SimDlgDllArguments>-dnRF5</SimDlgDllArguments>
-        <TargetDllName>SARMCM3.DLL</TargetDllName>
-        <TargetDllArguments></TargetDllArguments>
-        <TargetDlgDllName>TARMCM1.DLL</TargetDlgDllName>
-        <TargetDlgDllArguments></TargetDlgDllArguments>
-      </DllOpt>
       <DebugOpt>
         <uSim>0</uSim>
         <uTrg>1</uTrg>
@@ -104,9 +94,12 @@
         <tRfunc>0</tRfunc>
         <tRbox>1</tRbox>
         <tRtrace>0</tRtrace>
+        <sRSysVw>1</sRSysVw>
+        <tRSysVw>1</tRSysVw>
+        <tPdscDbg>1</tPdscDbg>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
-        <nTsel>7</nTsel>
+        <nTsel>6</nTsel>
         <sDll></sDll>
         <sDllPa></sDllPa>
         <sDlgDll></sDlgDll>
@@ -120,6 +113,11 @@
         <pMon>Segger\JL2CM3.dll</pMon>
       </DebugOpt>
       <TargetDriverDllRegistry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>UL2CM3</Key>
+          <Name>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0nrf51xxx -FS00 -FL0200000 -FP0($$Device:nRF51822_xxAA$Flash\nrf51xxx.flm))</Name>
+        </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>JL2CM3</Key>
@@ -217,16 +215,6 @@
         <IsCurrentTarget>0</IsCurrentTarget>
       </OPTFL>
       <CpuCode>0</CpuCode>
-      <DllOpt>
-        <SimDllName>SARMCM3.DLL</SimDllName>
-        <SimDllArguments></SimDllArguments>
-        <SimDlgDllName>DARMCM1.DLL</SimDlgDllName>
-        <SimDlgDllArguments>-dnRF5</SimDlgDllArguments>
-        <TargetDllName>SARMCM3.DLL</TargetDllName>
-        <TargetDllArguments></TargetDllArguments>
-        <TargetDlgDllName>TARMCM1.DLL</TargetDlgDllName>
-        <TargetDlgDllArguments></TargetDlgDllArguments>
-      </DllOpt>
       <DebugOpt>
         <uSim>0</uSim>
         <uTrg>1</uTrg>
@@ -245,6 +233,9 @@
         <tRfunc>0</tRfunc>
         <tRbox>1</tRbox>
         <tRtrace>0</tRtrace>
+        <sRSysVw>1</sRSysVw>
+        <tRSysVw>1</tRSysVw>
+        <tPdscDbg>1</tPdscDbg>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
         <nTsel>7</nTsel>
@@ -358,16 +349,6 @@
         <IsCurrentTarget>0</IsCurrentTarget>
       </OPTFL>
       <CpuCode>0</CpuCode>
-      <DllOpt>
-        <SimDllName>SARMCM3.DLL</SimDllName>
-        <SimDllArguments></SimDllArguments>
-        <SimDlgDllName>DARMCM1.DLL</SimDlgDllName>
-        <SimDlgDllArguments>-dnRF5</SimDlgDllArguments>
-        <TargetDllName>SARMCM3.DLL</TargetDllName>
-        <TargetDllArguments></TargetDllArguments>
-        <TargetDlgDllName>TARMCM1.DLL</TargetDlgDllName>
-        <TargetDlgDllArguments></TargetDlgDllArguments>
-      </DllOpt>
       <DebugOpt>
         <uSim>0</uSim>
         <uTrg>1</uTrg>
@@ -386,6 +367,9 @@
         <tRfunc>0</tRfunc>
         <tRbox>1</tRbox>
         <tRtrace>0</tRtrace>
+        <sRSysVw>1</sRSysVw>
+        <tRSysVw>1</tRSysVw>
+        <tPdscDbg>1</tPdscDbg>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
         <nTsel>7</nTsel>
@@ -499,16 +483,6 @@
         <IsCurrentTarget>0</IsCurrentTarget>
       </OPTFL>
       <CpuCode>0</CpuCode>
-      <DllOpt>
-        <SimDllName>SARMCM3.DLL</SimDllName>
-        <SimDllArguments></SimDllArguments>
-        <SimDlgDllName>DARMCM1.DLL</SimDlgDllName>
-        <SimDlgDllArguments>-dnRF5</SimDlgDllArguments>
-        <TargetDllName>SARMCM3.DLL</TargetDllName>
-        <TargetDllArguments></TargetDllArguments>
-        <TargetDlgDllName>TARMCM1.DLL</TargetDlgDllName>
-        <TargetDlgDllArguments></TargetDlgDllArguments>
-      </DllOpt>
       <DebugOpt>
         <uSim>0</uSim>
         <uTrg>1</uTrg>
@@ -527,6 +501,9 @@
         <tRfunc>0</tRfunc>
         <tRbox>1</tRbox>
         <tRtrace>0</tRtrace>
+        <sRSysVw>1</sRSysVw>
+        <tRSysVw>1</tRSysVw>
+        <tPdscDbg>1</tPdscDbg>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
         <nTsel>7</nTsel>
@@ -640,16 +617,6 @@
         <IsCurrentTarget>0</IsCurrentTarget>
       </OPTFL>
       <CpuCode>0</CpuCode>
-      <DllOpt>
-        <SimDllName>SARMCM3.DLL</SimDllName>
-        <SimDllArguments></SimDllArguments>
-        <SimDlgDllName>DARMCM1.DLL</SimDlgDllName>
-        <SimDlgDllArguments>-dnRF5</SimDlgDllArguments>
-        <TargetDllName>SARMCM3.DLL</TargetDllName>
-        <TargetDllArguments></TargetDllArguments>
-        <TargetDlgDllName>TARMCM1.DLL</TargetDlgDllName>
-        <TargetDlgDllArguments></TargetDlgDllArguments>
-      </DllOpt>
       <DebugOpt>
         <uSim>0</uSim>
         <uTrg>1</uTrg>
@@ -668,6 +635,9 @@
         <tRfunc>0</tRfunc>
         <tRbox>1</tRbox>
         <tRtrace>0</tRtrace>
+        <sRSysVw>1</sRSysVw>
+        <tRSysVw>1</tRSysVw>
+        <tPdscDbg>1</tPdscDbg>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
         <nTsel>7</nTsel>
@@ -781,16 +751,6 @@
         <IsCurrentTarget>0</IsCurrentTarget>
       </OPTFL>
       <CpuCode>0</CpuCode>
-      <DllOpt>
-        <SimDllName>SARMCM3.DLL</SimDllName>
-        <SimDllArguments></SimDllArguments>
-        <SimDlgDllName>DARMCM1.DLL</SimDlgDllName>
-        <SimDlgDllArguments>-dnRF5</SimDlgDllArguments>
-        <TargetDllName>SARMCM3.DLL</TargetDllName>
-        <TargetDllArguments></TargetDllArguments>
-        <TargetDlgDllName>TARMCM1.DLL</TargetDlgDllName>
-        <TargetDlgDllArguments></TargetDlgDllArguments>
-      </DllOpt>
       <DebugOpt>
         <uSim>0</uSim>
         <uTrg>1</uTrg>
@@ -809,6 +769,9 @@
         <tRfunc>0</tRfunc>
         <tRbox>1</tRbox>
         <tRtrace>0</tRtrace>
+        <sRSysVw>1</sRSysVw>
+        <tRSysVw>1</tRSysVw>
+        <tPdscDbg>1</tPdscDbg>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
         <nTsel>7</nTsel>
@@ -868,7 +831,7 @@
 
   <Group>
     <GroupName>app</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -878,10 +841,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -894,12 +854,9 @@
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Source\keil_arm_uv4.lnt</PathWithFileName>
+      <PathWithFileName>..\..\..\nordic\Nordic\nrf51822\Source\keil_arm_uv4.lnt</PathWithFileName>
       <FilenameWithoutPath>keil_arm_uv4.lnt</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -908,7 +865,7 @@
 
   <Group>
     <GroupName>core</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -918,13 +875,10 @@
       <FileType>2</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Source\templates\arm\arm_startup_nrf51.s</PathWithFileName>
-      <FilenameWithoutPath>startup_arm_nrf51.s</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\nordic\Nordic\nrf51822\Source\templates\arm\arm_startup_nrf51.s</PathWithFileName>
+      <FilenameWithoutPath>arm_startup_nrf51.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -934,12 +888,9 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Source\templates\system_nrf51.c</PathWithFileName>
+      <PathWithFileName>..\..\..\nordic\Nordic\nrf51822\Source\templates\system_nrf51.c</PathWithFileName>
       <FilenameWithoutPath>system_nrf51.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

@@ -8,7 +8,7 @@
 #include "nrf.h"
 #include "nrf_gpio.h"
 #include "nrf_delay.h"
-#include "boards.h"
+#include "nrf6100_10001.h"
 
 #define BTN_PRESSED 0
 #define BTN_RELEASED 1
